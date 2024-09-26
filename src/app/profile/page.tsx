@@ -52,7 +52,7 @@ export default function ProfilePage() {
 
                             {/* stat - start */}
                             <div className="flex flex-col items-center justify-center rounded-lg bg-gray-100 p-4 md:p-8">
-                                <div className="text-xl font-bold text-red-500 sm:text-2xl md:text-2xl">100 XP</div>
+                                <div className="text-xl font-bold text-red-500 sm:text-2xl md:text-2xl">0 XP</div>
                                 <div className="text-sm font-semibold sm:text-base">Points</div>
                                 {/* <button
             className="bg-pink-500 mt-4 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"

@@ -86,6 +86,11 @@ export default function LoginPage() {
                     <button onClick={onLogin} className="block rounded-lg bg-red-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-gray-300 transition duration-100 hover:bg-red-600 focus-visible:ring active:bg-red-600 md:text-base">Log in</button>
                 <div className="flex items-center justify-center p-2">
                     <p className="text-center text-sm text-gray-500">Don't have an account? <a href="/signup" className="text-red-500 transition duration-100 hover:text-red-600 active:text-red-700">Sign Up</a></p>
+                    
+                </div>
+
+                <div className="flex items-center justify-center p-2">
+                <a href="/Forgot" className="text-red-500 transition duration-100 hover:text-red-600 active:text-red-700">Forgot Password</a>
                 </div>
                 </div>
                 {/* </form> */}

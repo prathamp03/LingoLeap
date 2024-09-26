@@ -94,7 +94,7 @@ export default function SignupPage() {
 
                     <div>
                         <label htmlFor="password" className="mb-2 inline-block text-sm text-gray-800 sm:text-base">Password</label>
-                        <input id="password" type="password" value={user.password} onChange={(e) => setUser({ ...user, password: e.target.value })} name="password" className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-red-300 transition duration-100 focus:ring" />
+                        <input id="password" type="password" value={user.password} onChange={(e) => setUser({ ...user, password: e.target.value })} name="password"  className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-red-300 transition duration-100 focus:ring" />
                     </div>
                     <button onClick={onSignup} className="block rounded-lg bg-red-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-gray-300 transition duration-100 hover:bg-red-600 focus-visible:ring active:bg-red-600 md:text-base">{buttonDisabled ? "No SignUp" : "SignUp"}</button>
                     <div className="flex items-center justify-center p-4">
